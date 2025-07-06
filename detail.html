@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steam Game Detail</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/detail.css" />
+</head>
+
+<body>
+  <!-- ========== Header Navigation ========== -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="assets/images/header_logo.png" alt="Steam Logo">
+    </div>
+    <nav class="main-nav">
+      <a href="main.html">STORE</a>
+      <a href="#">COMMUNITY</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SUPPORT</a>
+    </nav>
+  </header>
+
+  <!-- ========== Main Content ========== -->
+  <main class="container">
+    <!-- ========== Back Button ========== -->
+    <button class="back-button" onclick="window.history.back()">← Quay lại cửa hàng</button>
+
+    <!-- ========== Game Detail ========== -->
+    <section id="gameDetail" class="game-detail">
+      <h1 class="game-title">Đang tải...</h1>
+      <img class="game-image" src="" alt="Ảnh game" />
+      <p><strong>Giá:</strong> <span class="game-price"></span></p>
+      <p><strong>Phát hành bởi:</strong> <span class="game-publisher"></span></p>
+      <p><strong>Giới thiệu:</strong> <span class="game-description"></span></p>
+    </section>
+  </main>
+
+  <!-- ========== Footer Section ========== -->
+  <footer>
+    <p>&copy; 2025 Steam Clone. Built for educational purposes.</p>
+    <p>
+      <a href="#">Privacy</a> |
+      <a href="#">Terms</a> |
+      <a href="#">Support</a>
+    </p>
+  </footer>
+
+  <script src="js/detail.js"></script>
+</body>
+
+</html>
